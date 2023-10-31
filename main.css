@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/harrypotterwall-1569343483.jpg?crop=1.00xw:0.502xh;0,0.119xh&resize=640:*");
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.line-1 {
+  height: 1px;
+  background-color: black;
+}
+
+.btn-primary {
+  background-color:brown;
+ 
+}
+
+#startButton {
+  display: flex;
+  justify-content: center;
+  margin-left: 650px;
+}
+
+form {
+  
+  width: 600px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+#firstYears {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 700px;
+  height: 400px;
+  border: 3px solid black;
+  margin-top: 100px;
+  
+}
+
+
+
+
+
+#voldyArmy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  center;
+  padding-top: 20px;
+  width: 700px;
+  height: 400px;
+  border: 3px solid black;
+  margin-top: 100px;
+  
+  
+  
+}
