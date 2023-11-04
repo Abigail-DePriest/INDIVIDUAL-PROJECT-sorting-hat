@@ -98,7 +98,7 @@
 
 
 
-//const card = document.querySelector("#card")
+const card = document.querySelector("#card")
 
 
 const renderToDom = (students) => {
@@ -325,7 +325,22 @@ document.getElementById("startButton").addEventListener("click", () => {
 const nameForm = document.querySelector("nameForm");
 const submit = document.querySelector("submit");
 
-const newStudent = (e) => {
+
+
+
+/*submit.addEventListener("click", (event) => {
+
+  console.log("button clicked")
+})*/
+
+
+
+
+
+
+
+
+/*const newStudent = (e) => {
     e.preventDefault();
      
     const newStudentObj = {
@@ -345,7 +360,7 @@ const newStudent = (e) => {
 }
 
 
-nameForm.addEventListener ("submit", newStudent)
+nameForm.addEventListener ("#submit", newStudent)*/
 
 
 /*const card = document.querySelector("#card");
